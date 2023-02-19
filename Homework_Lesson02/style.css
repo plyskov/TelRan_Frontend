@@ -1,0 +1,63 @@
+
+body {
+    font-size: smaller;
+}
+
+.header {
+    text-align: center;
+    color: brown;
+}
+
+    .header h1 {
+        margin: 2px;
+    }
+
+    .header p {
+        margin: 2px;
+        font-style: italic;
+    }
+
+.info {
+    text-align: center;
+    border: 1px solid indianred;
+    margin: 10px;
+    padding: 5px;
+}
+
+    .info img {
+        width: 13%;
+        height: auto;
+    }
+
+    .info p{
+        color: maroon;
+        margin: 2px;
+    }
+
+.work {
+    background-color: beige;
+}
+
+.hobby {
+    background-color: cornsilk;
+}
+
+.friends {
+    background-color: bisque;
+}
+
+.basement {
+    border: 1px solid indianred;
+    margin: 10px;
+    padding: 4px;
+    text-align: center;
+}
+
+    .basement img {
+       width: 16px;
+        height: 16px;
+    }
+
+    .basement a {
+        text-decoration: none;
+    }
