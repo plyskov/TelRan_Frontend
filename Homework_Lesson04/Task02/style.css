@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 20px;
+}
+
+.currencies {
+    padding: 10px 0 10px 0;
+}
+
+    .currencies ul {
+        list-style: disc inside none;
+        padding: 10px;
+    }
+
+.rates {
+    padding: 10px 0 10px 0;
+}
+
+.rates_table {
+    margin-top: 10px;
+    border: 1px solid black;
+}
+
+    .rates_table th {
+    border: 1px solid black;
+    padding: 2px;
+    }
+
+    .rates_table td {
+        border: 1px solid black;
+        padding: 2px;
+    }
+
+    .rates_table img {
+        height: 24px;
+        width: auto;
+    }
