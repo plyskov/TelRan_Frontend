@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(Images/Tiger.png);
+    background-position: center bottom;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 40% auto;
+    font-size: larger;
+    color: #554141;
+}
+
+.full_page {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+
+/* То, что ниже - это баловство, не обращайте внимание на косяки.
+Попробовал разметить страницу в 2 колонки, чтобы втупую lorem'ами не набивать контент ради скролла.*/
+
+.header {
+    padding-left: 20px;
+}
+
+.textcols {
+	display: table;
+	width: fit-content;
+	border-collapse: collapse;
+}
+
+.textcols-row {
+	 display: table-row;
+}
+
+.textcols-item {
+	display: table-cell;	
+	width: 50%;
+	vertical-align: top;
+    text-align: left;
+	padding: 20px;
+}
+
