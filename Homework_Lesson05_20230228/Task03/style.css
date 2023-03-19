@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu_top {
+    width: 50%;
+    background-color: rgb(61, 154, 216);
+    border: 1px solid blue;
+    margin: 8px auto 0 auto;
+}
+
+.menu_top ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu_top li {
+    list-style-type: none;
+}
+
+.menu_top a {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+    border: 1px solid blue;
+    max-width: 110px;
+}
+
+.menu_top a:hover{
+    background-color: white;
+    color: rgb(61, 154, 216);
+}
